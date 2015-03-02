@@ -10,9 +10,9 @@ end
 
 answer = String.new
 
-puts terms
 
-terms = Hash[terms.to_a.sample(terms.length)]
+terms = Hash[terms.to_a.shuffle]
+
 i = 0
 right = 0
 wrong = 0
